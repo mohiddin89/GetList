@@ -97,18 +97,18 @@ namespace GetList
 
             #endregion
 
-            StreamWriter excelWriterScoringMatrixNew = null;
+            //StreamWriter excelWriterScoringMatrixNew = null;
 
-            excelWriterScoringMatrixNew = System.IO.File.CreateText(textBox2.Text + "\\" + "ScoringMatrix" + "_" + DateTime.Now.ToString("dd-MM-yyyy-hh-mm-ss") + ".csv");
+            //excelWriterScoringMatrixNew = System.IO.File.CreateText(textBox2.Text + "\\" + "ScoringMatrix" + "_" + DateTime.Now.ToString("dd-MM-yyyy-hh-mm-ss") + ".csv");
 
-            excelWriterScoringMatrixNew.WriteLine("Filename" + "," + "URL" + "," + "Owners" + "," + "Built-in-Groups" + "," + "AD Groups" + "," + "Start Time" + "," + "End Date" + "," + "Remarks");
-            excelWriterScoringMatrixNew.Flush();
+            //excelWriterScoringMatrixNew.WriteLine("Filename" + "," + "URL" + "," + "Owners" + "," + "Built-in-Groups" + "," + "AD Groups" + "," + "Start Time" + "," + "End Date" + "," + "Remarks");
+            //excelWriterScoringMatrixNew.Flush();
 
-            List<string> ListNames = new List<string>();
-            ListNames.Add("Site Assets");
-            ListNames.Add("2_Documents and Pages");
-            ListNames.Add("1_Uploaded Files");
-            ListNames.Add("Discussions");
+            //List<string> ListNames = new List<string>();
+            //ListNames.Add("Site Assets");
+            //ListNames.Add("2_Documents and Pages");
+            //ListNames.Add("1_Uploaded Files");
+            //ListNames.Add("Discussions");
 
             for (int j = 0; j <= lstSiteColl.Count - 1; j++)
             {
